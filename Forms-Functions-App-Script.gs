@@ -55,7 +55,7 @@ var formClass = function(){
         break;
       case "Champ Libre": //In case of a TextArea
         var item = form.addParagraphTextItem();
-        item.setTitle(row[0])
+        item.setTitle(data.title)
         break;
     }
     
